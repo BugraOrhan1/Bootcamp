@@ -1,0 +1,8 @@
+leeftijd = 0
+
+while leeftijd == 0:
+    try:
+        leeftijd= int(input('wat is u leeftijd?'))
+    except ValueError:
+        print('je moet wel een getal invullen ')
+print(f'je leeftijd is {leeftijd}')
